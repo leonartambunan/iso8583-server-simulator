@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="org.jpos.util.DailyLogListener">
+<log realm="Q2.system" at="2021-03-21T23:45:57.137">
+  <info>
+    Q2 started, deployDir=/tmp/iso8583-server-simulator/deploy, environment=default
+  </info>
+</log>
+<log realm="Q2.system" at="2021-03-21T23:45:57.329" lifespan="186ms">
+  <version>
+    jPOS 2.1.4 master/6225824 (2020-03-31 18:07:15 UYT) 
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+jPOS Community Edition, licensed under GNU AGPL v3.0.
+This software is probably not suitable for commercial use.
+Please see http://jpos.org/license for details.
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (Darwin)
+
+iQEcBAEBAgAGBQJMolHDAAoJEOQyeO71nYtFv74H/3OgehDGEy1VXp2U3/GcAobg
+HH2eZjPUz53r38ARPiU3pzm9LwDa3WZgJJaa/b9VrJwKvbPwe9+0kY3gScDE1skT
+ladHt+KHHmGQArEutkzHlpZa73RbroFEIa1qmN6MaDEHGoxZqDh0Sv2cpvOaVYGO
+St8ZaddLBPC17bSjAPWo9sWbvL7FgPFOHhnPmbeux8SLtnfWxXWsgo5hLBanKmO1
+1z+I/w/6DL6ZYZU6bAJUk+eyVVImJqw0x3IEElI07Nh9MC6BA4iJ77ejobj8HI2r
+q9ulRPEqH9NR79619lNKVUkE206dVlXo7xHmJS1QZy5v/GT66xBxyDVfTduPFXk=
+=oP+v
+-----END PGP SIGNATURE-----
+
+  </version>
+</log>
+<log realm="Q2.system" at="2021-03-21T23:45:57.344" lifespan="5ms">
+  <info>
+    deploy: /tmp/iso8583-server-simulator/deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="bank-server.server" at="2021-03-21T23:45:57.398">
+  <iso-server>
+    listening on port 4444
+  </iso-server>
+</log>
+<log realm="stdout" at="2021-03-21T23:45:57.906" lifespan="501ms">
+              _____                    _____                   _______
+             /\    \                  /\    \                 /::\    \
+            /::\    \                /::\    \               /::::\    \
+            \:::\    \              /::::\    \             /::::::\    \
+             \:::\    \            /::::::\    \           /::::::::\    \
+              \:::\    \          /:::/\:::\    \         /:::/~~\:::\    \
+               \:::\    \        /:::/__\:::\    \       /:::/    \:::\    \
+               /::::\    \       \:::\   \:::\    \     /:::/    / \:::\    \
+      ____    /::::::\    \    ___\:::\   \:::\    \   /:::/____/   \:::\____\
+     /\   \  /:::/\:::\    \  /\   \:::\   \:::\    \ |:::|    |     |:::|    |
+    /::\   \/:::/  \:::\____\/::\   \:::\   \:::\____\|:::|____|     |:::|    |
+    \:::\  /:::/    \::/    /\:::\   \:::\   \::/    / \:::\    \   /:::/    /
+     \:::\/:::/    / \/____/  \:::\   \:::\   \/____/   \:::\    \ /:::/    /
+      \::::::/    /            \:::\   \:::\    \        \:::\    /:::/    /
+       \::::/____/              \:::\   \:::\____\        \:::\__/:::/    /
+        \:::\    \               \:::\  /:::/    /         \::::::::/    /
+         \:::\    \               \:::\/:::/    /           \::::::/    /
+          \:::\    \               \::::::/    /             \::::/    /
+           \:::\____\               \::::/    /               \::/____/
+            \::/    /                \::/    /                 ~~
+             \/____/                  \/____/  leonar.tambunan@gmail.com
+    
+    
+    [2m2021-03-21 23:45:57.457[0;39m [32m INFO[0;39m [35m25143[0;39m [2m---[0;39m [2m[           main][0;39m [36mid.nio.iso.ISOServerApplication         [0;39m [2m:[0;39m Starting ISOServerApplication v1.0.0 on libre with PID 25143 (/tmp/iso8583-server-simulator/target/simulator-1.0.0.jar started by nacho in /tmp/iso8583-server-simulator)
+    [2m2021-03-21 23:45:57.460[0;39m [32m INFO[0;39m [35m25143[0;39m [2m---[0;39m [2m[           main][0;39m [36mid.nio.iso.ISOServerApplication         [0;39m [2m:[0;39m No active profile set, falling back to default profiles: default
+    [2m2021-03-21 23:45:57.809[0;39m [32m INFO[0;39m [35m25143[0;39m [2m---[0;39m [2m[           main][0;39m [36mid.nio.iso.ISOServerApplication         [0;39m [2m:[0;39m Started ISOServerApplication in 0.577 seconds (JVM running for 0.927)
+</log>
+<log realm="Q2.system" at="2021-03-21T23:46:01.352">
+  <info>
+    shutting down (hook)
+  </info>
+</log>
+<log realm="Q2.system" at="2021-03-21T23:46:02.398">
+  <trace>
+    undeploying:/tmp/iso8583-server-simulator/deploy/50_xml_server.xml
+  </trace>
+</log>
+<log realm="bank-server.pool" at="2021-03-21T23:46:02.403" lifespan="1ms">
+  <queue-closed/>
+</log>
+<log realm="Q2.system" at="2021-03-21T23:46:02.403">
+  <info>
+    undeployed:/tmp/iso8583-server-simulator/deploy/50_xml_server.xml
+  </info>
+</log>
+<log realm="Q2.system" at="2021-03-21T23:46:02.404">
+  <trace>
+    undeploying:/tmp/iso8583-server-simulator/deploy/00_logger.xml
+  </trace>
+</log>
+</logger>

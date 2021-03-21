@@ -1,0 +1,21 @@
+<server class="org.jpos.q2.iso.QServer"
+        logger="Q2"
+        name="bank-server"
+        realm="bank-server">
+
+  <attr name="port" type="java.lang.Integer">4444</attr>
+
+  <channel class="id.nio.iso.iso8583.BankChannel"
+           packager="org.jpos.iso.packager.GenericPackager"
+           type="server"
+           logger="Q2"
+           realm="bank-server">
+    <property name="packager-config" value="cfg/packager.xml"/>
+    <property name="timeout" value="60000"/>
+  </channel>
+
+  <request-listener class="id.nio.iso.iso8583.MessageHandler"
+                    logger="Q2"
+                    realm="incoming-request-listener">
+  </request-listener>
+</server>
