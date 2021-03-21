@@ -1,5 +1,5 @@
-# ISO8583 Simulator
-Leonar Tambunan (leonar.tambunan@gmail.com)
+# ISO8583 Server Simulator
+leonar.tambunan@gmail.com
 
 ## How to Build
 ```mvn clean package```
