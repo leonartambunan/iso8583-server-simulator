@@ -1,4 +1,4 @@
-# ISO8583 Server Simulator
+# JPOS ISO-Server Acts as Server
 leonar.tambunan@gmail.com
 
 ## How to Build
